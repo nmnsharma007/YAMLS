@@ -20,7 +20,7 @@ spec:
         app: echoserver
     spec:
       containers:
-      - image: k8s.gcr.io/e2e-test-images/echoserver:2.5
+      - image: 384067822530.dkr.ecr.us-east-1.amazonaws.com/prod-ecr:mystreet-product-service
         name: echoserver
         ports:
         - containerPort: 8080
